@@ -3,8 +3,9 @@ decrypt-srtp
 
 Decrypt RTP streams embedded in PCAP captures using libsrtp
 
+Usage: 
 ```
-usage: ./decrypt-srtp [-d <debug>]* [-k <key> [-a][-e]]
+./decrypt-srtp [-d <debug>]* [-k <key> [-a][-e]]
 or     ./decrypt-srtp -l
 where  -a use message authentication
        -e <key size> use encryption (use 128 or 256 for key size)
