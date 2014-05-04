@@ -1,6 +1,6 @@
 CFLAGS=-g -Os -Wall
 INCLUDES=-I/usr/local/include/srtp
-LIBRARIES=-lpcap -lgcrypt -lsrtp
+LIBRARIES=-lpcap -lsrtp
 
 all:
 	$(CC) -g decrypt-srtp.c -o decrypt-srtp $(INCLUDES) $(LIBRARIES)
